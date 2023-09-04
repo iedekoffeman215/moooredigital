@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 80px 20px 20px;
+}
+
+.header {
+    position: relative;
+}
+
+
+
+.country {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: #000000;
+}
+
+.country-info {
+    background-color: aliceblue;
+    border: none;
+    
+}
+
+.country img {
+    max-width: 100px;
+    max-height: 60px;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: none;
+}
+
+.show-info .info {
+    display: block;
+}
+
+.meerinfo {
+    margin-top: 15px;
+    background-color: #161e32;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: black;
+}

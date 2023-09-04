@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #333;
+    color: aliceblue;
+    padding: 10px 0;
+}
+
+.country-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.country img {
+    max-width: 100px;
+    max-height: 60px;
+    margin-bottom: 10px;
+}
+
+.location-table {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.location-table th, .location-table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.location-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+    font-weight: bold;
+}
+
+.location-table td a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.location-table td a i {
+    font-size: 18px;
+}
+
+.form-container {
+    /* ... (andere CSS-stijlen) ... */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+.form-container input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+/* Add spacing between the label and input field */
+.form-group label {
+    margin-bottom: 5px; /* Add margin below the label */
+}
+
+.form-group input[type="text"] {
+    margin-top: 5px; /* Add margin above the input field */
+}
+
+
+.header-container {
+    position: relative;
+}
+
+.back-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
+}
+
+.back-icon a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.back-icon i {
+    margin-right: 5px;
+}
